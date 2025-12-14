@@ -36,9 +36,8 @@ securityContext:
   # runAsNonRoot: true
   # runAsUser: 1000
 
-initContainers: {}
-  # Specify initContainers as dictionary items. Each initContainer should have its own key.
-  # which also defines the order of execution
+initContainers: []
+  # Specify initContainers as list, which also defines the execution order
 
 service:
   type: ClusterIP
